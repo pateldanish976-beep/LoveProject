@@ -3,7 +3,7 @@
 <head>
 <script src="https://kit.fontawesome.com/a14ae32021.js" crossorigin="anonymous"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>This one is for my Varchhu</title>
+<title>This one is for my JUGNU then</title>
 
 <style type="text/css">
 @font-face {
@@ -28,13 +28,13 @@
 			<span class="space"/><span class="comments">*/</span><br />
 			Hey Girl !<br />
 			Do you remember the day we first met?<br />
-			<span class="comments">// The ET-LAB Friday. </span><br />
+			<span class="comments">// The Dominos Pizza Saturday. </span><br />
 			Since that day a spark begun;<br />
 			<span class="comments">// Your face Your Voice Your Words.</span><br />
 			Your everything got imprinted in my heart;<br />
 			As the time went on;<br />
 			The Bond grew stronger and stronger;<br />
-			Journey from Infatuation to Love;<br />
+			Journey from Dilemma to Love;<br />
 			We have traveled a long way together;<br />
 			There have been fights ;<br />
 			<span class="comments">// And I'm sure there will be more.</span><br />
@@ -42,36 +42,41 @@
 			<br>
 			<br>
 			All I want to say is:<br />
-			Baby, I will love you forever;<br />
+			Happy 3rd Anniversary ❤️<br />
+			Happy Third Anniversary ❤️<br />
 			<br>
 			<br>
-			Now If you want to hug me you can touch the heart below<br />
+			Now If you want a kiss, then left click the heart below and open it in new tab<br />
 			<br>
 			<span id="heartspan">
-			<a href="image.jpg"><i class="fas fa-heart" id="icon"></i></a>
+			<a href="image.jpg" target="_blank" rel="noopener"><i class="fas fa-heart" id="icon"></i></a>
 			</span>
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					वर्षा ऋतु FOREVER
+					𝒟𝒶𝓃𝒾𝓈𝒽 𝒩𝒶𝓂𝓇𝒶𝓉𝒶
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
-					I LOVE YOU SO MUCH<br/>
-					<div class="signature">- RITVIK</div>
+					𝓘 𝓛𝓞𝓥𝓔 𝓨𝓞𝓤 𝓢𝓞 𝓜𝓤𝓒𝓗<br/>
+					<div class="signature">- DANISH</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+	<audio id="bgMusic" loop controls style="position: fixed; right: 16px; bottom: 16px; z-index: 999;">
+		<source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=romantic-background-112150.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
 
 <script type="text/javascript">
 var offsetX = $("#loveHeart").width() / 2;
 var offsetY = $("#loveHeart").height() / 2 - 55;
 var together = new Date();
-together.setFullYear(2016, 8, 5);
+together.setFullYear(2023, 4, 5);
 together.setHours(16);
 together.setMinutes(30);
 together.setSeconds(0);
@@ -98,6 +103,15 @@ if (!document.createElement('canvas').getContext) {
 
 	adjustCodePosition();
 	$("#code").typewriter();
+
+
+	var bgMusic = document.getElementById("bgMusic");
+	var startMusic = function () {
+		if (bgMusic) {
+			bgMusic.play().catch(function () {});
+		}
+	};
+	document.addEventListener("click", startMusic, { once: true });
 }
 </script>
 </body>
